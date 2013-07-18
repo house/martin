@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=OpenSans:100italic,700italic,100,700);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:900italic,900);
+
+#wrapper { max-width: 650px; margin: 50px auto; padding: 60px 9%; margin-top: 50px; background: #fff}
+
+
+body { 
+  font: 100 18px/1.5em 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+  background: #eee; 
+  margin: 0;
+}
+
+
+a { text-decoration: none; color: inherit; border-bottom: 1px solid #ddd;}
+a:hover {border-bottom: 1px solid #222;}
+em {font-style: italic;}
+strong {font-weight: bold;}
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+  font-family: 'Playfair Display', "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;  margin: 1em 0;
+  font-weight: 900;
+}
+h1 { font-size: 2em; line-height: 1.16em;}
+h2 { font-size: 1.55em; line-height: 1.16em;}
+h3 { font-size: 1.16em; }
+h4 { font-size: 1em; text-transform: uppercase; letter-spacing: 0.15em; }
+h5 { font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.15em; }
+h6 { font-size: 0.67em; text-transform: uppercase; letter-spacing: 0.15em; }
+p, ul, pre, table, dl { margin: 0; color: #888; margin-bottom: 1em; }
+code, pre { font-size: 16px; color: #222;}
+blockquote { border-left: 2px solid #222; padding-left: 2em; margin: 0;font-size: 0.875em;}
+table {width: 100%; }
+th, td { padding: 1em; text-align: center;}
+th {
+  border-bottom: 1px solid #222;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size:0.7em;
+  text-align: center;
+  color: #222;
+}
+dt {margin-top: 0.5em;color:#888;font-weight:700;}
+dt:first-child {margin-top:0;}
+dd {margin-left: 1em;}
+hr {
+  border: 0;
+  height: 2px; 
+  display: block;
+  margin: 4em auto;
+  background: #222;
+}
+
+
+header, section, footer, a {transition: 0.2s;}
+
+header {
+  clear: both;
+  padding-bottom: 3em;
+  padding-top: 1px;
+  border-bottom: 3px solid #222;
+}
+
+header a {border-bottom: 1px solid #fff;}
+
+.byline { float: left; }
+.byline a {
+  color: #888;
+  text-align: center;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-weight: 100;
+}
+
+.downloads { float: right; }
+.downloads a {
+  margin: 0 1em;
+  color: #888;
+  text-align: center;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+}
+
+header hgroup {
+  clear: both;
+  border-top: 4px solid #222;
+  margin-top: 3em;
+}
+
+header h1 {
+  margin: 0;
+  margin-top: 1px;
+  padding-top: 1.5em;
+  font-family: 'Playfair Display', "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+  line-height: 1.33em;
+  font-style: italic;
+  font-size: 5em;
+  border-top: 1px solid #222;
+}
+
+.tagline { 
+  margin:0;
+  margin-top: 1.25em;
+  font-family: 'Playfair Display', "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+  line-height:1.5em;
+  color: #222;
+}
+
+section {
+  padding-top: 5em;
+  padding-bottom: 4em;
+  border-bottom: 4px solid #222;
+  margin-top: 1px;
+}
+
+section h1:first-child {margin-top: 0;}
+
+footer {
+  margin-top: 1px;
+  padding-top: 3em;
+  overflow: auto;
+  text-align: center;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-top: 1px solid #222;
+}
+
+footer a { border: 0; margin: 0 0.5em; color: #888; }
+
+@media print {
+  body {font-size: 12px;}
+  header {border: 0;padding: 0; margin: 0; text-align: center;}
+  .downloads, .byline, footer {display: none;}
+  header hgroup {border: 0;padding:0; margin: 0;}
+  header h1 {margin: 0; padding: 0; font-size: 3em;border: 0;}
+  header h2 {border: 0; margin: 0;}
+  .downloads, footer {display:none;}
+  section {border: 0;}
+}
+
+@media screen and (max-width: 650px) {
+  body {font-size: 16px; background: #fff;}
+  #wrapper {margin: 0px; padding: 0;}
+  .byline, .downloads {float: none; text-align: center; }
+  .downloads a:first-child {margin-left: 0;}
+  header {padding: 2em;}
+  header hgroup {text-align:center;border: 0;margin:0;}
+  header h1 {font-size:3em;border: 0;padding:0;padding-top:0.5em;}
+  .tagline {border: 0;margin-top: 0.5em;}
+  header div {border: 0;}
+  section, footer {padding: 2em;}
+  footer p {width: 100%; float: none;}
+  footer p:last-child {text-align: left;}
+
+
+}
