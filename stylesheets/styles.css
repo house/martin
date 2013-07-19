@@ -26,7 +26,7 @@ h3 { font-size: 1.16em; }
 h4 { font-size: 1em; text-transform: uppercase; letter-spacing: 0.15em; }
 h5 { font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.15em; }
 h6 { font-size: 0.67em; text-transform: uppercase; letter-spacing: 0.15em; }
-p, ul, pre, table, dl { margin: 0; color: #797979; margin-bottom: 1em; }
+p, ul, pre, table, dl { margin: 0; color: #888; margin-bottom: 1em; }
 code, pre { font-size: 16px; color: #222;}
 blockquote { border-left: 2px solid #222; padding-left: 2em; margin: 0;font-size: 0.875em;}
 table {width: 100%; }
