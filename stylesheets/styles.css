@@ -8,6 +8,7 @@ body {
   font: 100 18px/1.5em 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
   background: #eee; 
   margin: 0;
+  font-weight: 200;
 }
 
 
@@ -26,7 +27,7 @@ h3 { font-size: 1.16em; }
 h4 { font-size: 1em; text-transform: uppercase; letter-spacing: 0.15em; }
 h5 { font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.15em; }
 h6 { font-size: 0.67em; text-transform: uppercase; letter-spacing: 0.15em; }
-p, ul, pre, table, dl { margin: 0; color: #888; margin-bottom: 1em; }
+p, ul, pre, table, dl { margin: 0; color: #797979; margin-bottom: 1em; }
 code, pre { font-size: 16px; color: #222;}
 blockquote { border-left: 2px solid #222; padding-left: 2em; margin: 0;font-size: 0.875em;}
 table {width: 100%; }
@@ -71,7 +72,6 @@ header a {border-bottom: 1px solid #fff;}
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: left;
-  font-weight: 100;
 }
 
 .downloads { float: right; }
@@ -82,7 +82,6 @@ header a {border-bottom: 1px solid #fff;}
   font-size: 0.7em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-weight: 100;
 }
 
 header hgroup {
