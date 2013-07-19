@@ -1,11 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=OpenSans:100italic,700italic,100,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,300,600);
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:900italic,900);
 
 #wrapper { max-width: 650px; margin: 50px auto; padding: 60px 9%; margin-top: 50px; background: #fff}
 
-
 body { 
-  font: 100 18px/1.5em 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+  font: 200 18px/1.5em 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
   background: #eee; 
   margin: 0;
 }
@@ -14,7 +13,7 @@ body {
 a { text-decoration: none; color: inherit; border-bottom: 1px solid #ddd;}
 a:hover {border-bottom: 1px solid #222;}
 em {font-style: italic;}
-strong {font-weight: bold;}
+strong {font-weight: 600;}
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-family: 'Playfair Display', "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;  margin: 1em 0;
@@ -71,7 +70,6 @@ header a {border-bottom: 1px solid #fff;}
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: left;
-  font-weight: 100;
 }
 
 .downloads { float: right; }
@@ -82,7 +80,6 @@ header a {border-bottom: 1px solid #fff;}
   font-size: 0.7em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-weight: 100;
 }
 
 header hgroup {
