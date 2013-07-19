@@ -4,10 +4,9 @@
 #wrapper { max-width: 650px; margin: 50px auto; padding: 60px 9%; margin-top: 50px; background: #fff}
 
 body { 
-  font: 100 18px/1.5em 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+  font: 200 18px/1.5em 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
   background: #eee; 
   margin: 0;
-  font-weight: 200;
 }
 
 
