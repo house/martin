@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700italic,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,300,600);
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:900italic,900);
 
 #wrapper { max-width: 650px; margin: 50px auto; padding: 60px 9%; margin-top: 50px; background: #fff}
@@ -13,7 +13,7 @@ body {
 a { text-decoration: none; color: inherit; border-bottom: 1px solid #ddd;}
 a:hover {border-bottom: 1px solid #222;}
 em {font-style: italic;}
-strong {font-weight: bold;}
+strong {font-weight: 600;}
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-family: 'Playfair Display', "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;  margin: 1em 0;
