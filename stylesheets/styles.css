@@ -6,7 +6,7 @@
   Typography
 --------------------------------*/
 
-body              { font: 200 18px/1.61em 'Open Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+body              { font: 200 18px/1.61em 'Open Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; color: #888; }
 a                 { text-decoration: none; color: inherit; border-bottom: 1px solid #ddd; }
 a:hover           { border-bottom: 1px solid #222; }
 em                { font-style: italic; }
@@ -20,12 +20,13 @@ h4                { font-size: 1em; }
 h5                { font-size: 0.78em; }
 h6                { font-size: 0.67em; }
 h4, h5, h6        { text-transform: uppercase; letter-spacing: 0.15em; }
-p, ul, pre, table { margin: 0; color: #888; margin-bottom: 1em; }
-code, pre         { font-size: 0.88em; color: #222;}
-blockquote        { border-left: 2px solid #222; padding-left: 2em; margin: 0;font-size: 0.875em;}
+p, ul, pre, table { margin: 0; margin-bottom: 1em; }
+code, pre         { font-size: 0.9em; color: #222;}
+blockquote        { border-left: 2px solid #222; color: #222; padding-left: 2em; margin: 0; }
 hr                { border: 0; height: 2px; display: block; margin: 4em auto; background: #222; }
 table             { width: 100%; }
 th, td            { padding: 1em; text-align: center;}
+td                { font-size: 0.88em; }
 th {
   border-bottom: 1px solid #222;
   font-weight: 100;
