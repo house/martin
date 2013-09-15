@@ -6,7 +6,7 @@
   Typography
 --------------------------------*/
 
-body              { font: 200 18px/1.5em 'Open Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+body              { font: 200 18px/1.61em 'Open Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
 a                 { text-decoration: none; color: inherit; border-bottom: 1px solid #ddd; }
 a:hover           { border-bottom: 1px solid #222; }
 em                { font-style: italic; }
@@ -145,7 +145,6 @@ footer {
   letter-spacing: 0.1em;
   border-top: 1px solid #222;
 }
-
 
 @media print {
   body { font-size: 12px; }
