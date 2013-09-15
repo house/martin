@@ -95,6 +95,10 @@ header a {
   letter-spacing: 0.1em;
 }
 
+.downloads a:last-child {
+  margin-right: 0;
+}
+
 header hgroup {
   clear: both;
   border-top: 4px solid #222;
