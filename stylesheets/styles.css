@@ -32,7 +32,7 @@ th {
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  font-size:0.7em;
+  font-size: 0.7em;
   text-align: center;
   color: #222;
 }
@@ -151,10 +151,10 @@ footer {
   body { font-size: 12px; }
   header { border: 0;padding: 0; margin: 0; text-align: center; }
   .downloads, .byline, footer { display: none; }
-  header hgroup { border: 0;padding:0; margin: 0; }
-  header h1 { margin: 0; padding: 0; font-size: 3em;border: 0; }
+  header hgroup { border: 0; padding: 0; margin: 0; }
+  header h1 { margin: 0; padding: 0; font-size: 3em; border: 0; }
   header h2 { border: 0; margin: 0; }
-  .downloads, footer { display:none; }
+  .downloads, footer { display: none; }
   section { border: 0; }
 }
 
@@ -164,9 +164,9 @@ footer {
   .byline, .downloads {float: none; text-align: center; }
   .downloads a:first-child {margin-left: 0; }
   header { padding: 2em; }
-  header hgroup { text-align:center;border: 0;margin:0; }
-  header h1 { font-size:3em;border: 0;padding:0;padding-top:0.5em; }
-  .tagline { border: 0;margin-top: 0.5em; }
+  header hgroup { text-align: center; border: 0; margin: 0; }
+  header h1 { font-size: 3em; border: 0; padding: 0; padding-top: 0.5em; }
+  .tagline { border: 0; margin-top: 0.5em; }
   header div { border: 0; }
   section, footer { padding: 2em; }
   footer p { width: 100%; float: none; }
